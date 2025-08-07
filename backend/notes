@@ -1,0 +1,14 @@
+//i will later use redis for blacklisted tokens
+
+//also need to add rate limiting for protection from bruteforce attack
+
+
+// Rate limiting consideration for login/forgotPassword
+// Account lockout after failed attempts
+// Log security events for monitoring
+
+// In login, you could add user account status check
+//if (!user.is_active) {
+  //  return res.status(403).json({ message: 'Account has been deactivated' });
+ // }
+  
